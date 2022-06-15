@@ -3,7 +3,7 @@ from openpyxl import *
 import glob
 import os
 
-path = './Files'                  # use your path
+path = r'./Files'                  # use your path
 all_files = glob.glob(os.path.join(path, "*.csv")) 
 
 # Making List of Dataframes
